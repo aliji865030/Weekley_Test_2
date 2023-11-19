@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sigmar&display=swap');
+
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+
+.nav{
+    height: 75px;
+    width: 100vw;
+    background-color:#333333;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    
+
+}
+
+.contect{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0 60px;
+    font-weight: 400;
+    font-size: 16px;
+}
+.logop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    padding: 0 40px;
+    
+}
+.photo{
+    width: 100vw;
+    height: 85vh;
+   
+
+}
+.img{
+    width: 100%;
+    height: 100%;
+    background: url("https://koa.com/blog/images/family-camping-at-sunset.jpg?preset=heroimagecropped");
+    background-size: cover;
+    background-position: center 65%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    
+    
+}
+.co{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap:30px;
+    
+    
+}
+
+.img::before{
+    
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.2);
+    
+}
+.content1{
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+    z-index: 1;
+    margin-top: -80px;
+}
+
+.content3{
+    
+    cursor: pointer;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: black;
+    padding: 12px 45px;
+    z-index: 1;
+    
+
+}
+
+
+.content3 .over_services a{
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+
+.content3:hover{
+    background-color: rgba(255, 255, 255, .3);
+    
+    color: white;
+    border: 2px solid white;
+    font-size: 15px;
+    
+}
+
+
+.content3 .over_services a:hover{
+    color: white;
+}
+.content2{
+
+    font-size: 20px;
+    text-align: center;
+    color:#ffffff;
+    z-index: 1;
+    margin-top: -20px;
+
+}
+
+.main{
+    width: 100vw;
+    height: 430vh;
+    background-color: #f2f2f2;
+    margin-top: -7px;
+}
+.our{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    padding-top: 70px;
+    gap: 10px;
+}
+
+.our h2{
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+
+.our p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.flexy{
+    width: 100vw;
+    height: 130vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.image1 img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.card{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+    
+}
+
+.flexy .card .normal{
+    text-align: center;
+    padding: 0 30px;
+}
+
+.bolder{
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.story{
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+}
+.message{
+    width: 160px;
+    height: 50px;
+    background-color:#333333;
+    border-radius: 5px;
+    color: white;
+    padding: 12px 15px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.contect_me{
+    display: flex;
+    padding: 50px;
+    justify-content: space-between;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.icon i{
+   color: #7a7a7a;
+}
+
+.name{
+    width: 550px;
+    height: 45px;
+    border: none;
+    border: 1px solid #7a7a7a;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+.textarea{
+    width: 550px;
+    height: 150px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.message:hover{
+   background-color: rgb(85, 85, 85);
+}
+
+.card:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
